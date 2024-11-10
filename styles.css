@@ -1,0 +1,97 @@
+body{
+    font-family: "Ubuntu", serif ;
+    margin : 0;
+    background-color: rgb(45, 44, 42);
+}
+
+a{
+    text-decoration: none;
+}
+
+#main-header{
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(38, 27, 27);
+    padding: 0 26px;
+}
+
+#logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(238, 164, 80);
+}
+
+#main-header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header li{
+    margin: 0 16px;
+}
+
+#main-header nav a{
+    color:rgb(185, 131, 31);
+    font-size: 20px;
+}
+
+#main-header nav a:hover{
+    color:rgb(228, 163, 44);
+}
+
+main h1{
+    text-align: center;
+    color:rgb(238, 164, 80);
+    font-size: 48px;
+}
+
+#latest-products{
+    width: 80%;
+    margin: 50px auto;
+    display:grid;
+}
+
+#latest-products ul{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.food-item {
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+.food-item img{
+    height: 240px;
+    width:100%;
+    object-fit:cover;
+}
+
+.food-item-content{
+    padding:16px;
+    text-align : center;
+    padding-top : 0px;
+}
+
+.btn{
+    background-color:rgb(228, 157, 44);
+    color: white;
+    border-radius:4px;
+    padding : 8px 24px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 134, 34);
+}
+
